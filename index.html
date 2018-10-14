@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VITEEE FORM</title>
+		<style type="text/css">
+		    #main-header{
+		    	text-align: center;
+		    	background-color: purple;
+		    	color:white;
+                font-size: 5em;
+		    }
+			
+			#main-footer{
+				text-align:center;
+				padding:10px;
+				background-color:purple;
+                color:white;
+			}
+			#main-form{
+				text-align: center;
+			}
+			ul {
+				padding:10px 40px ;
+				margin:0;
+				color :white;
+				background-color:black;
+				word-spacing: 10px;
+			}
+			ul li a {
+				text-decoration:none;
+                color : white;
+			}
+			ul li {
+				display: inline-block;
+                font-size: 20px;
+			}
+			ul li hover{
+				color : yellow;
+
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<header id="main-header">
+			VITEE EXAM
+		</header>
+		
+		
+		<ul>
+			<li><a href="http://www.vit.ac.in/campus">CampusLife</a></li>
+			<li><a href="http://www.vit.ac.in/academics">Academics</a></li>
+			<li><a href="http://www.vit.ac.in/placement">Placements</a></li>
+			<li><a href="http://www.vit.ac.in/about">AboutUs</a></li>
+			<li><a href="http://www.vit.ac.in/research">Research</a></li>
+			<li><a href="http://www.vit.ac.in/admissions">Admission</a></li>
+		</ul>  
+		<br>
+		<br>
+		<br>  
+		<form action = "submit.html" method = "POST" id="main-form">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first-name" placeholder="ENTER FIRST NAME">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="last-name" placeholder="ENTER LAST NAME">
+			</div>	
+			<br>
+			<div>
+				<label>EMAIL</label>
+				<input type="email" name="email" placeholder="ENTER EMAIL">
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="Gender">
+					<option value="male">Male</option>
+				    <option value="female">Female</option>
+				    <option value="others">Others</option>		
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Birthyear</label>
+				<input type = "date" name="birthday">
+			</div>
+			<br>
+			<div>
+				<label>EXAM COMBINATIONS</label>
+				<select name="subject">
+					<option value = "PCM">PCM</option>
+					<option value ="PCB">PCB</option>
+				</select>
+			</div>
+            <br>
+            <div>
+            	<input type="submit" name= "submit" value="submit">
+            </div>
+		</form>
+		<br>
+		<br>
+		<footer id="main-footer"> COPYRIGHT &copy;2019,VIT UNIVERSITY WEBSITE</footer>
+        <center><img src = "sample.jpg" width=200px></center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/l5XqVm9yoEY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</body>
+
+</html>
